@@ -1,0 +1,150 @@
+.secao-produtos{
+    width: 100%;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.Card-principal{
+  margin: 50px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Card-OG, .Card-OT, .Card-OS, .Card-IN {
+   background-color: #f6f6f6;
+   width: calc(50% - 15%);
+   padding: 20px 10px;
+   margin:0 0 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 3px 2px rgba(0, 6, 130, 0.204);
+
+}
+
+.Card-OG img{
+    width: 50%;
+    max-height: 150px;
+    margin: 30px 0;
+    object-fit: contain;
+}
+
+.Card-OT img{
+    width: 50%;
+    max-height: 150px;
+    margin: 30px 0;
+    object-fit: contain;
+}
+
+.Card-OS img{
+    width: 50%;
+    max-height: 150px;
+    margin: 30px 0;
+    object-fit: contain;
+}
+
+.Card-IN img{
+    width: 50%;
+    max-height: 150px;
+    margin: 30px 0;
+    object-fit: contain;
+}
+
+.Card-principal p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+.lista-produtos ul{
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista-produtos li{
+    text-align: left;
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .secao-produtos {
+    padding: 60px 20px;
+  }
+  .Card-OG h4 {
+    font-size: 22px;
+  }
+  .Card-OT h4{
+    font-size: 22px;
+  }
+  .Card-OS h4{
+    font-size: 22px;
+  }
+  .Card-IN h4{
+    font-size: 22px;
+  }
+  .Card-OG img {
+    max-height: 100px;
+  }
+
+  .Card-OT img{
+    max-height: 100px;
+  }
+
+  .Card-OS img{
+    max-height: 100px;
+  }
+
+  .Card-IN img{
+    max-height: 100px;
+  }
+
+
+  .Card-OG p{
+    font-size: 16px;
+  }
+
+  .Card-OT p{
+    font-size: 16px;
+  }
+
+  .Card-OS p{
+    font-size: 16px;
+  }
+
+  .Card-IN p{
+    font-size: 16px;
+  }
+
+
+}
+
+@media (max-width: 550px) {
+  .secao-produtos {
+    padding: 60px 10px;
+  }
+  .Card-OG{
+    width: 100%;
+  }
+
+  .Card-OT{
+    width: 100%;
+  }
+
+  .Card-OS{
+    width: 100%;
+  }
+
+  .Card-IN{
+    width: 100%;
+  }
+
+  .secao-produtos ul {
+    align-items: flex-start;
+  }
+}

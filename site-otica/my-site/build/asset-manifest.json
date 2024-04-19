@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/primeir-projeto-react/static/css/main.7409fc12.css",
+    "main.js": "/primeir-projeto-react/static/js/main.dde96977.js",
+    "static/js/787.a5fa54f9.chunk.js": "/primeir-projeto-react/static/js/787.a5fa54f9.chunk.js",
+    "static/media/capa.png": "/primeir-projeto-react/static/media/capa.44a9e1db5439c08db3da.png",
+    "index.html": "/primeir-projeto-react/index.html",
+    "main.7409fc12.css.map": "/primeir-projeto-react/static/css/main.7409fc12.css.map",
+    "main.dde96977.js.map": "/primeir-projeto-react/static/js/main.dde96977.js.map",
+    "787.a5fa54f9.chunk.js.map": "/primeir-projeto-react/static/js/787.a5fa54f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7409fc12.css",
+    "static/js/main.dde96977.js"
+  ]
+}
