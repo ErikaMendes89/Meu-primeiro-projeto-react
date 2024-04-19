@@ -19,7 +19,7 @@ git clone https://github.com/seu-usuario/seu-projeto.git
 
 Navegue até a pasta do projeto:
 
-cd seu-projeto
+cd my-site
 
 Instale as dependências do projeto:
 
